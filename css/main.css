@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 h1,
@@ -486,7 +486,7 @@ pre,
   overflow: auto;
   margin: 20px 0;
   padding: 0;
-  font-size: 13px;
+  font-size: 16px;
   color: #4d4d4c;
   background: #f7f7f7;
   line-height: 1.6;
@@ -501,7 +501,7 @@ code {
   color: #555;
   background: #eee;
   border-radius: 3px;
-  font-size: 13px;
+  font-size: 16px;
 }
 pre {
   padding: 10px;
@@ -1237,7 +1237,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1764,6 +1764,254 @@ pre .javascript .function {
   font-size: 14px;
   color: #999;
 }
+.site-author-image {
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  max-width: 96px;
+  height: auto;
+  border: 2px solid #333;
+/* 头像圆形 */
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  box-shadow: inset 0 -1px 0 #333 sf;
+}
+img:hover {
+  animation: wobble 2s infinite;
+}
+@-moz-keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -moz-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -ms-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -o-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -moz-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -ms-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -o-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -moz-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -o-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -moz-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -ms-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -o-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -moz-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -ms-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -o-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -moz-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -ms-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -o-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -moz-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -ms-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -o-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -moz-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -o-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -moz-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -ms-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -o-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -moz-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -ms-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -o-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -moz-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -ms-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -o-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -moz-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -ms-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -o-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -moz-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -o-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -moz-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -ms-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -o-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -moz-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -ms-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -o-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -moz-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -ms-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -o-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -moz-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -ms-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -o-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -moz-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -o-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -moz-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -ms-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -o-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -moz-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -ms-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -o-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 .site-state {
   overflow: hidden;
   line-height: 1.4;
@@ -1832,7 +2080,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #17ff6a;
+  background: #6b4786;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2792,12 +3040,12 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-title {
-    font-size: 22px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1600px) {
   .posts-expand .post-title {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 .posts-expand .post-title:hover:before {
@@ -2805,7 +3053,7 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-body {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .posts-expand .post-body img {
@@ -2831,7 +3079,7 @@ hr {
 }
 .post-button a {
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
   background: none;
   border: none;
   border-bottom: 2px solid #666;
@@ -2839,12 +3087,12 @@ hr {
 }
 @media (max-width: 767px) {
   .post-button a {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1600px) {
   .post-button a {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .post-button a:hover {
@@ -2913,4 +3161,28 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+code {
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+}
+.highlight,
+pre {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.highlight,
+code,
+pre {
+  border: 1px solid #d6d6d6;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  background: rgba(33,233,133,0.2);
 }
